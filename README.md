@@ -1,8 +1,8 @@
 # React 19 Playground
 
-This is a playground for newest React features and UI implementation.
+This is a playground for the newest React features and UI implementation.
 
-`<img src="public/screenshot.png" alt="React Playground" />`
+`<img src="public/screenshot" alt="React Playground" />`
 
 ## Getting Started
 
