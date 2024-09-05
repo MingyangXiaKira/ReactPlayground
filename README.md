@@ -2,7 +2,7 @@
 
 This is a playground for newest React features and UI implementation.
 
-`<img src="public/screenshot.png" alt="React Playground" />`
+`<img src="./public/screenshot.png" alt="React Playground" />`
 
 ## Getting Started
 
