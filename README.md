@@ -2,7 +2,8 @@
 
 This is a playground for the newest React features and UI implementation.
 
-`<img src="public/screenshot" alt="React Playground" />`
+![ScreenShot](https://raw.githubusercontent.com/bradtraversy/react-19-playground/main/public/screen.png)
+
 
 ## Getting Started
 
