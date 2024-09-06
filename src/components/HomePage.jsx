@@ -204,9 +204,47 @@ const HomePage = () => {
           )}
 
           {/* other react examples */}
-          {type === 0 && category2 && <>react</>}
+          {type === 0 && category2 && (
+            <>
+              <li className="bg-blue-50 p-4 rounded shadow my-5">
+                <div>
+                  <h3 className="text-2xl font-bold">
+                    Reusable Component Example
+                  </h3>
+                  <p className="my-2">React reusable component</p>
+                  <a
+                    className="font-bold text-blue-800"
+                    href="/usetransition-example"
+                  >
+                    View
+                  </a>
+                </div>
+              </li>
+            </>
+          )}
           {/* ui examples */}
-          {type === 1 && <>ui</>}
+          {type === 1 && (
+            <>
+              <li className="bg-blue-50 p-4 rounded shadow my-5">
+                <div>
+                  <h3 className="text-2xl font-bold">Accordion</h3>
+                  <p className="my-2"></p>
+                  <a className="font-bold text-blue-800" href="/accordion">
+                    View
+                  </a>
+                </div>
+              </li>
+              <li className="bg-blue-50 p-4 rounded shadow my-5">
+                <div>
+                  <h3 className="text-2xl font-bold">Accordion</h3>
+                  <p className="my-2"></p>
+                  <a className="font-bold text-blue-800" href="/accordion">
+                    View
+                  </a>
+                </div>
+              </li>
+            </>
+          )}
         </ul>
       </div>
     </>
