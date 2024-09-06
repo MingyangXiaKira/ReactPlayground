@@ -17,7 +17,7 @@ import { UseOptimisticExample } from "./components/useOptimisticExample/Message"
 import { UseTransitionExample } from "./components/useTransitionExample/Tabs";
 import MainLayout from "./layouts/MainLayout";
 import Accordion from "./components/accordion/Accordion";
-
+import Slider from "./components/slider/Slider";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -57,6 +57,7 @@ const App = () => {
           element={<UseTransitionExample />}
         />
         <Route path="accordion" element={<Accordion />} />
+        <Route path="slider" element={<Slider />} />
       </Route>
     )
   );

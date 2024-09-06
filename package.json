@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^19.0.0-beta-26f2496093-20240514",
     "react-dom": "^19.0.0-beta-26f2496093-20240514",
-    "react-router-dom": "^6.26.2-pre.0"
+    "react-router-dom": "^6.26.2-pre.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
