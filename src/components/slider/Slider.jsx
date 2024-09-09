@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 const dataSlider = [
   { id: uuidv4(), title: "lorem" },
   { id: uuidv4(), title: "lorem" },
@@ -42,12 +39,8 @@ const Slider = () => {
           );
         }
       })}
-      <div className="leftArrow absolute left-0 top-1/2 cursor-pointer">
-        <ArrowBackIosIcon onClick={handlePrev} />
-      </div>
-      <div className="rightArrow absolute right-0 top-1/2 cursor-pointer">
-        <ArrowForwardIosIcon onClick={handleNext} />
-      </div>
+      <div className="leftArrow absolute left-0 top-1/2 cursor-pointer"></div>
+      <div className="rightArrow absolute right-0 top-1/2 cursor-pointer"></div>
 
       <div
         className="dotsContainer absolute bottom-0 flex gap-4"
