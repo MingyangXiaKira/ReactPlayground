@@ -18,6 +18,7 @@ import { UseTransitionExample } from "./components/useTransitionExample/Tabs";
 import MainLayout from "./layouts/MainLayout";
 import Accordion from "./components/accordion/Accordion";
 import Slider from "./components/slider/Slider";
+import ContactForm from "./components/contactForm/ContactForm";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -58,6 +59,7 @@ const App = () => {
         />
         <Route path="accordion" element={<Accordion />} />
         <Route path="slider" element={<Slider />} />
+        <Route path="contactform" element={<ContactForm />} />
       </Route>
     )
   );
