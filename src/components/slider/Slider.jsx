@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 const dataSlider = [
-  { id: uuidv4(), title: "lorem" },
-  { id: uuidv4(), title: "lorem" },
-  { id: uuidv4(), title: "lorem" },
-  { id: uuidv4(), title: "lorem" },
+  { id: 1, title: "lorem" },
+  { id: 2, title: "lorem" },
+  { id: 3, title: "lorem" },
+  { id: 4, title: "lorem" },
 ];
 
 const Slider = () => {
