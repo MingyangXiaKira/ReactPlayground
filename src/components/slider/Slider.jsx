@@ -39,8 +39,16 @@ const Slider = () => {
           );
         }
       })}
-      <div className="leftArrow absolute left-0 top-1/2 cursor-pointer"></div>
-      <div className="rightArrow absolute right-0 top-1/2 cursor-pointer"></div>
+      <div className="leftArrow absolute left-0 top-1/2 cursor-pointer ">
+        <button onClick={handlePrev} className="p-1 bg-blue-200 text-white">
+          Prev
+        </button>
+      </div>
+      <div className="rightArrow absolute right-0 top-1/2 cursor-pointer ">
+        <button onClick={handleNext} className="p-1 bg-blue-200 text-white">
+          Next
+        </button>
+      </div>
 
       <div
         className="dotsContainer absolute bottom-0 flex gap-4"
